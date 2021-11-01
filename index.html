@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iswandi's project</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./logo.svg" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">services</a>
+              </li>
+              <li>
+                <a href="#projects" class="scroll-link">projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>iswandi jamain</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eos
+            neque sunt in? Id, necessitatibus quos quisquam distinctio
+            laudantium fugiat?
+          </p>
+          <a href="#projects" class="scroll-link btn btn-white"
+            >explore projects</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>about <span>us</span></h2>
+      </div>
+    </section>
+    <!-- services -->
+    <section id="services" class="section">
+      <div class="title">
+        <h2>our <span>services</span></h2>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="projects" class="section">
+      <div class="title">
+        <h2>featured <span>projects</span></h2>
+      </div>
+      <section class="project-container">
+        <!-- item 1 -->
+        <div class="project">
+          <span>tutorial 1</span>
+          <a
+            href="./javascript-basic-projects-master/01-color-flipper/setup/index.html"
+            >color flipper</a
+          >
+        </div>
+        <!-- end item 1 -->
+        <!-- item 2 -->
+        <div class="project">
+          <span>tutorial 2</span>
+          <a
+            href="./javascript-basic-projects-master/02-counter/setup/index.html"
+            >counter</a
+          >
+        </div>
+        <!-- end item 2 -->
+        <!-- item 3 -->
+        <div class="project">
+          <span>tutorial 3</span>
+          <a
+            href="./javascript-basic-projects-master/03-reviews/setup/index.html"
+            >reviews</a
+          >
+        </div>
+        <!-- end item 1 -->
+      </section>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; backroads travel projects company
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
